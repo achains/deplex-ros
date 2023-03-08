@@ -1,2 +1,5 @@
 Language:        Cpp
 BasedOnStyle:  Google
+IncludeBlocks: Preserve
+SeparateDefinitionBlocks: Always
+ColumnLimit: 120
