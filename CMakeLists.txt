@@ -41,6 +41,11 @@ ament_target_dependencies(image_listener rclcpp std_msgs  )#deplex)
 
 target_link_libraries(image_listener deplex)
 
+install(
+    DIRECTORY launch
+    DESTINATION share/${PROJECT_NAME}
+)
+
 install(TARGETS
         image_publisher
         image_listener
